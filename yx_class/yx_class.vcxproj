@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="delMin.cpp" />
+    <ClCompile Include="delRepitition.cpp" />
+    <ClCompile Include="delStoT.cpp" />
     <ClCompile Include="delX.cpp" />
     <ClCompile Include="reverseSqueue.cpp" />
   </ItemGroup>

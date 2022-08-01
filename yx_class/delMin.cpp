@@ -11,7 +11,18 @@
 //#include <stdio.h>
 //#include <stdlib.h>
 //int deleteMin(int *arr,int len) {
-//	
+//	if (!len) return;//数组为空，退出运行
+//	int minPos = 0, min = arr[0];
+//	for (int i = 1; i < len; i++) {
+//		if (min > *(arr + i)) {
+//			min = *(arr + i);
+//			minPos = i;
+//		}
+//	}
+//	//找到最小值之后，进行交换
+//	*(arr + minPos) = *(arr + len - 1);
+//	*(arr + len - 1) = NULL;
+//	return min;
 //}
 //int main() {
 //	int n;//手动输入数组长度
