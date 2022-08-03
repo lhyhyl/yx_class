@@ -127,10 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="createLink.cpp" />
     <ClCompile Include="delMin.cpp" />
+    <ClCompile Include="delMinInLink.cpp" />
     <ClCompile Include="delRepitition.cpp" />
     <ClCompile Include="delStoT.cpp" />
     <ClCompile Include="delX.cpp" />
+    <ClCompile Include="delXinLink.cpp" />
+    <ClCompile Include="findMain.cpp" />
+    <ClCompile Include="findMidNum.cpp" />
+    <ClCompile Include="findMinOfTrip.cpp" />
+    <ClCompile Include="reverseNow.cpp" />
+    <ClCompile Include="reverseOutput.cpp" />
     <ClCompile Include="reverseSqueue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
