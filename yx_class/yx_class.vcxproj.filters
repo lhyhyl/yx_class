@@ -16,6 +16,9 @@
     <Filter Include="源文件\class1">
       <UniqueIdentifier>{2d9e3dfc-40d5-489c-b5ac-93cfa4ecb192}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\class2">
+      <UniqueIdentifier>{cdcec739-97eb-4c76-b45d-0039921f0840}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="delMin.cpp">
@@ -32,6 +35,30 @@
     </ClCompile>
     <ClCompile Include="delStoT.cpp">
       <Filter>源文件\class1</Filter>
+    </ClCompile>
+    <ClCompile Include="delMinInLink.cpp">
+      <Filter>源文件\class2</Filter>
+    </ClCompile>
+    <ClCompile Include="delXinLink.cpp">
+      <Filter>源文件\class2</Filter>
+    </ClCompile>
+    <ClCompile Include="findMain.cpp">
+      <Filter>源文件\class2</Filter>
+    </ClCompile>
+    <ClCompile Include="findMidNum.cpp">
+      <Filter>源文件\class2</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseNow.cpp">
+      <Filter>源文件\class2</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseOutput.cpp">
+      <Filter>源文件\class2</Filter>
+    </ClCompile>
+    <ClCompile Include="findMinOfTrip.cpp">
+      <Filter>源文件\class2</Filter>
+    </ClCompile>
+    <ClCompile Include="createLink.cpp">
+      <Filter>资源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
