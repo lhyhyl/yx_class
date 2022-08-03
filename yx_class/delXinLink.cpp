@@ -12,7 +12,33 @@
 //#include <stdio.h>
 //#include <stdlib.h>
 //void deleteX(Link *&p,int delNum) {
-//	
+//
+//	Link* pre = p, * q = p->next, * r;
+//	while (q) {
+//		if (q->data == delNum) {//如果相等，暂存
+//			r = q;
+//			q = q->next;
+//			pre->next = q;
+//			free(r);
+//		}
+//		else {//否则，继续往后走
+//			pre = q;
+//			q = q->next;
+//		}
+//	}
+//
+//	/*Link* s = p->next;
+//	while (p != NULL) {
+//		if (p->next->data == delNum) {
+//			p->next = s->next;
+//			free(s);
+//			p = p->next;
+//		
+//		}
+//		else {
+//			p = p->next;
+//		}
+//	}*/
 //}
 //
 //int main() {

@@ -5,13 +5,24 @@
 //*/
 //struct Link {
 //	int data;
-//	struct Link* next;
+//	Link* next;
 //};
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
 //#include <stdlib.h>
 //void deleteMin(Link *p) {
-//
+//	struct Link *preMinp = p, *minP = p->next,*preQ=p->next, *q = p->next->next,*f;
+//	while (q) {
+//		if (q->data < minP->data) {//如果比当前值更小
+//			minP = q;//更换
+//			preMinp = preQ;//前驱一起更换
+//		}
+//		preQ = q;//继续前进
+//		q = q->next;
+//	}
+//	f = minP;
+//	preMinp->next = minP->next;//删除
+//	free(f);//释放
 //
 //}
 //int main() {

@@ -8,17 +8,76 @@
 //*/
 //#include <stdio.h>
 //int findMidNum1(int* l1, int* l2, int len) {
-//	
+//	/*int i=0, j=0, k = 0;
+//	int arr[100];
+//	for(;i<len&&j<len;)
+//		if (l1[i] < l2[j])
+//		{
+//			arr[k++] = l1[i++];
+//		}
+//		else {
+//			arr[k++] = l2[j++];
+//		}
+//	while (i >= len && j < len)
+//		arr[k++] = l2[j++];
+//	while(i<len&&j>=len)
+//		arr[k++] = l1[i++];
+//	return arr[len];*/
+//	int i = 0, j = 0, count = 0, mid = 0;
+//
+//	for (; i < len && j < len;) {
+//		if (count == len) {
+//			mid = l1[i] < l2[j] ? l1[i] : l2[j];
+//			break;
+//		}
+//		else {
+//			l1[i] < l2[j] ? i++ : j++;
+//			count++;
+//		}
+//	}
+//	return mid;
 //}
 //int findMidNum2(int* l1, int* l2, int len) {
-//	
+//	int s1 = 0, d1 = len - 1, s2 = 0, d2 = len - 1, m1, m2;//两个表的开始结束位置及中间位置
+//	while (s1 != d1 || s2 != d2) {
+//		m1 = (s1 + d1) / 2;
+//		m2 = (s2 + d2) / 2;
+//		if (l1[m1] == l2[m2]) {//此时位置就是中位数的位置
+//			return l1[m1];
+//		}
+//		if (l1[m1] < l2[m2]) {//此时舍弃m1左边元素，m2右边元素，但考虑到有奇偶情况，分开讨论
+//			if ((s1 + d1) % 2 == 0) {//如果此时操作的序列为奇数，则要保留中间点
+//				s1 = m1;//舍弃m1的左边部分
+//				d2 = m2;//舍弃m2的右边部分
+//			}
+//			else {//而如果操作序列为偶数，则舍弃m1的左边及其中心点，舍弃m2的右边
+//				s1 = m1 + 1;
+//				d2 = m2;
+//
+//			}
+//
+//		}
+//		else {//此时舍弃m2左边元素，m1右边元素，也需要分奇偶讨论
+//			if ((s2 + d2) % 2 == 0) {//如果此时操作的序列为奇数，则要保留中间点
+//				d1 = m1;//舍弃l1的左边部分
+//				s2 = m2;//舍弃l2的右边部分
+//			}
+//			else {//而如果操作序列为偶数，则舍弃m1的左边及其中心点，舍弃m2的右边
+//				d1 = m1;
+//				s2 = m2 + 1;
+//
+//			}
+//		}
+//
+//	}
+//	return l1[s1] < l2[s2] ? l1[s1] : l2[s2];
 //}
 //int main() {
-//	int l1[] = { 1,3,4,7,9,10,11 };// 1 2 3 4 4 6 7 8 9 10 10 11
+//	int l1[] = { 1,3,4,7,9 };// 1 2 3 4 4 6 7 8 9
 //	int l2[] = { 2,4,6,8,10 };
 //	int len = sizeof(l1) / sizeof(int);
 //	int middle;
-//	middle = findMidNum2(l1, l2, len - 1);
+//	middle = findMidNum1(l1, l2, len - 1);
 //	printf("中位数是：%d ", middle);
 //	return 0;
 //}
