@@ -11,8 +11,19 @@
 //#include <stdio.h>
 //#include <stdlib.h>
 //void reverseOutput(Link *p) {
-//	
-//	
+//	//static Link* p = h->next;
+//	/*
+//	while (p) {
+//		push(p->data);
+//	}
+//	while (!isEmpty()) {
+//		pop();
+//	}*/
+//	if (!p) return;
+//	else {
+//		reverseOutput(p->next);
+//		printf("%d ", p->data);
+//	}
 //}
 //int main() {
 //	int n,data;

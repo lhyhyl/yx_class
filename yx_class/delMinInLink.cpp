@@ -11,19 +11,25 @@
 //#include <stdio.h>
 //#include <stdlib.h>
 //void deleteMin(Link *p) {
-//	struct Link *preMinp = p, *minP = p->next,*preQ=p->next, *q = p->next->next,*f;
-//	while (q) {
-//		if (q->data < minP->data) {//如果比当前值更小
-//			minP = q;//更换
-//			preMinp = preQ;//前驱一起更换
+//	Link* pre = p;
+//	Link* minpre = pre;
+//	Link* s = pre->next;
+//	Link* minS = s;
+//	while (s != NULL)
+//	{
+//		if (s->data < minS->data)
+//		{
+//			minS = s;
+//			minpre = pre;
 //		}
-//		preQ = q;//继续前进
-//		q = q->next;
+//		else {
+//			pre = s;
+//			s = s->next;
+//			
+//		}
 //	}
-//	f = minP;
-//	preMinp->next = minP->next;//删除
-//	free(f);//释放
-//
+//	minpre->next = minS->next;
+//	free(minS);
 //}
 //int main() {
 //		int n,data;
