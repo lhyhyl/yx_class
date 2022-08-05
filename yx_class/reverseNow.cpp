@@ -11,7 +11,30 @@
 //#include <stdio.h>
 //#include <stdlib.h>
 //void reverse(Link *h) {
-//	
+//	//Link* pre = h;
+//	//Link* s = pre->next;
+//	//Link* r = s->next,*q;
+//	//while (r!= NULL)
+//	//{
+//	//	q = r->next;
+//	//	r->next = s;
+//	//	s = r;
+//	//	r = q;
+//	//	
+//	//}
+//	////ÉÆºó
+//	//pre->next->next = NULL;
+//	//pre->next = s;
+//	Link* p = h->next;
+//	Link* r ;
+//	h->next = NULL;
+//	while (p != NULL)
+//	{
+//		r = p->next;
+//		p->next = h->next;
+//		h->next = p;
+//		p = r;
+//	}
 //}
 //int main() {
 //	Link *head = (Link*) malloc(sizeof(Link));
