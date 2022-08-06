@@ -17,8 +17,8 @@
 //	while (q) {
 //		if (q->data == delNum) {//如果相等，暂存
 //			r = q;
-//			q = q->next;
-//			pre->next = q;
+//			
+//			pre->next = q->next;
 //			free(r);
 //		}
 //		else {//否则，继续往后走
