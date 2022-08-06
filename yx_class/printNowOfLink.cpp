@@ -3,10 +3,11 @@ struct Link {
 	struct Link* next;
 };
 #include <stdio.h>
-void printfNowLink(Link* head) {
+void printfNowLink(Link* h) {
+	Link* p = h->next;
 	printf("操作后链表值为：");
-	while (head->next) {
-		printf("%d ", head->next->data);
-		head = head->next;
+	while (p) {
+		printf("%d ", p->data);
+		p = p->next;
 	}
 }
