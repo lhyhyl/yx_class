@@ -33,6 +33,7 @@
 //			printf("%c ", p->data);
 //			pop(s);
 //			p = p->rchild;
+//
 //		}
 //	}
 //}
