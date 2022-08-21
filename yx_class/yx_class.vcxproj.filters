@@ -19,6 +19,54 @@
     <Filter Include="源文件\class2">
       <UniqueIdentifier>{cdcec739-97eb-4c76-b45d-0039921f0840}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\class3">
+      <UniqueIdentifier>{1ade6fee-4e62-46d2-9eb8-16cd73b6d5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class4">
+      <UniqueIdentifier>{9ec5715d-0089-4eef-86b2-d8dc7d710fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class5">
+      <UniqueIdentifier>{2d69716e-62d2-4124-abe3-16ee1f3f7dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class5\review">
+      <UniqueIdentifier>{0239d3aa-ba8a-4603-8d33-4e32c7002a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class6">
+      <UniqueIdentifier>{4a64fab5-31d9-4a84-a786-c626d4b8d1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class6\review">
+      <UniqueIdentifier>{925ad347-0822-4150-bf08-1a0f30a568a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class7">
+      <UniqueIdentifier>{0979d130-f3b1-44f3-bb6e-2ece15173cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class7\review">
+      <UniqueIdentifier>{d76fb614-730a-465b-ab31-6b9b0ea4e854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class8">
+      <UniqueIdentifier>{0b0259f3-4b60-4952-99e0-d4de8fbf8d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class8\review">
+      <UniqueIdentifier>{42ebbf68-f2d6-4297-9f6e-5daaa449bdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class9">
+      <UniqueIdentifier>{8f42d85b-69cc-42a7-88a2-a3073fbfd0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class9\review">
+      <UniqueIdentifier>{0591cac0-45ce-4bf7-9eba-3f916477c8cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class10">
+      <UniqueIdentifier>{62f4671b-bda7-4fbe-a062-733c2806c8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class10\review">
+      <UniqueIdentifier>{f375f50f-541a-42ad-ac18-1420abd731ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class11">
+      <UniqueIdentifier>{ba58c3f3-42a5-4c0a-8fac-d06cca03daee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class11\review">
+      <UniqueIdentifier>{ec10a175-efa0-4f9a-b6a8-9cfad391a7f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="delMin.cpp">
@@ -36,9 +84,6 @@
     <ClCompile Include="delStoT.cpp">
       <Filter>源文件\class1</Filter>
     </ClCompile>
-    <ClCompile Include="delMinInLink.cpp">
-      <Filter>源文件\class2</Filter>
-    </ClCompile>
     <ClCompile Include="delXinLink.cpp">
       <Filter>源文件\class2</Filter>
     </ClCompile>
@@ -48,17 +93,176 @@
     <ClCompile Include="findMidNum.cpp">
       <Filter>源文件\class2</Filter>
     </ClCompile>
-    <ClCompile Include="reverseNow.cpp">
-      <Filter>源文件\class2</Filter>
-    </ClCompile>
-    <ClCompile Include="reverseOutput.cpp">
-      <Filter>源文件\class2</Filter>
-    </ClCompile>
     <ClCompile Include="findMinOfTrip.cpp">
       <Filter>源文件\class2</Filter>
     </ClCompile>
     <ClCompile Include="createLink.cpp">
       <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseNow.cpp">
+      <Filter>源文件\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseOutput.cpp">
+      <Filter>源文件\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="delMinInLink.cpp">
+      <Filter>源文件\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="delDuring.cpp">
+      <Filter>源文件\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="printNowOfLink.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="outPutAndFree.cpp">
+      <Filter>源文件\class4</Filter>
+    </ClCompile>
+    <ClCompile Include="divideOddAndEven.cpp">
+      <Filter>源文件\class4</Filter>
+    </ClCompile>
+    <ClCompile Include="delRep.cpp">
+      <Filter>源文件\class4</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeList.cpp">
+      <Filter>源文件\class4</Filter>
+    </ClCompile>
+    <ClCompile Include="doubleLoopLinkList.cpp">
+      <Filter>源文件\class5</Filter>
+    </ClCompile>
+    <ClCompile Include="linkTwoList.cpp">
+      <Filter>源文件\class5</Filter>
+    </ClCompile>
+    <ClCompile Include="addFreq.cpp">
+      <Filter>源文件\class5</Filter>
+    </ClCompile>
+    <ClCompile Include="findTheRK.cpp">
+      <Filter>源文件\class5</Filter>
+    </ClCompile>
+    <ClCompile Include="sert.cpp">
+      <Filter>源文件\class5\review</Filter>
+    </ClCompile>
+    <ClCompile Include="createSinLoopLink.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="createDouLoopLink.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findCommonSuffix.cpp">
+      <Filter>源文件\class5</Filter>
+    </ClCompile>
+    <ClCompile Include="linkBiTree.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="levelOrder.cpp">
+      <Filter>源文件\class6</Filter>
+    </ClCompile>
+    <ClCompile Include="getHigh.cpp">
+      <Filter>源文件\class6</Filter>
+    </ClCompile>
+    <ClCompile Include="doubleLink.cpp">
+      <Filter>源文件\class6\review</Filter>
+    </ClCompile>
+    <ClCompile Include="createBiTree.cpp">
+      <Filter>源文件\class6</Filter>
+    </ClCompile>
+    <ClCompile Include="createSequentialQueue.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getHigh2.cpp">
+      <Filter>源文件\class7</Filter>
+    </ClCompile>
+    <ClCompile Include="review.cpp">
+      <Filter>源文件\class7\review</Filter>
+    </ClCompile>
+    <ClCompile Include="getHigh(review).cpp">
+      <Filter>源文件\class7\review</Filter>
+    </ClCompile>
+    <ClCompile Include="inOrder.cpp">
+      <Filter>源文件\class7</Filter>
+    </ClCompile>
+    <ClCompile Include="preOrder.cpp">
+      <Filter>源文件\class7</Filter>
+    </ClCompile>
+    <ClCompile Include="createStack.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="levelOrder2.cpp">
+      <Filter>源文件\class7</Filter>
+    </ClCompile>
+    <ClCompile Include="levelOrder(review).cpp">
+      <Filter>源文件\class7\review</Filter>
+    </ClCompile>
+    <ClCompile Include="postOrder.cpp">
+      <Filter>源文件\class8</Filter>
+    </ClCompile>
+    <ClCompile Include="isCommonTree.cpp">
+      <Filter>源文件\class8</Filter>
+    </ClCompile>
+    <ClCompile Include="R_levelOrder.cpp">
+      <Filter>源文件\class8\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_getHigh.cpp">
+      <Filter>源文件\class8\review</Filter>
+    </ClCompile>
+    <ClCompile Include="findAllAncestor.cpp">
+      <Filter>源文件\class8</Filter>
+    </ClCompile>
+    <ClCompile Include="R_inOrder.cpp">
+      <Filter>源文件\class8\review</Filter>
+    </ClCompile>
+    <ClCompile Include="doubleNode.cpp">
+      <Filter>源文件\class9</Filter>
+    </ClCompile>
+    <ClCompile Include="swapChild.cpp">
+      <Filter>源文件\class9</Filter>
+    </ClCompile>
+    <ClCompile Include="leafLink.cpp">
+      <Filter>源文件\class9</Filter>
+    </ClCompile>
+    <ClCompile Include="R_delMinOfLink.cpp">
+      <Filter>源文件\class9\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_findCommonSuffix.cpp">
+      <Filter>源文件\class9\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_postOrder.cpp">
+      <Filter>源文件\class9\review</Filter>
+    </ClCompile>
+    <ClCompile Include="getWPL.cpp">
+      <Filter>源文件\class10</Filter>
+    </ClCompile>
+    <ClCompile Include="inOrderExp.cpp">
+      <Filter>源文件\class10</Filter>
+    </ClCompile>
+    <ClCompile Include="preK.cpp">
+      <Filter>源文件\class10</Filter>
+    </ClCompile>
+    <ClCompile Include="R_delXinLink.cpp">
+      <Filter>源文件\class10\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_isCommonTree.cpp">
+      <Filter>源文件\class10\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_reverseOutPut.cpp">
+      <Filter>源文件\class10\review</Filter>
+    </ClCompile>
+    <ClCompile Include="delXsub.cpp">
+      <Filter>源文件\class11</Filter>
+    </ClCompile>
+    <ClCompile Include="isBalanceTree.cpp">
+      <Filter>源文件\class11</Filter>
+    </ClCompile>
+    <ClCompile Include="isSortTree.cpp">
+      <Filter>源文件\class11</Filter>
+    </ClCompile>
+    <ClCompile Include="levelInSortTree.cpp">
+      <Filter>源文件\class11</Filter>
+    </ClCompile>
+    <ClCompile Include="R_inOrderExp.cpp">
+      <Filter>源文件\class11\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_swapChild.cpp">
+      <Filter>源文件\class11\review</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
