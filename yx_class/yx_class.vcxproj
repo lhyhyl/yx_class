@@ -149,9 +149,11 @@
     <ClCompile Include="doubleNode.cpp" />
     <ClCompile Include="findAllAncestor.cpp" />
     <ClCompile Include="findCommonSuffix.cpp" />
+    <ClCompile Include="findKth.cpp" />
     <ClCompile Include="findMain.cpp" />
     <ClCompile Include="findMidNum.cpp" />
     <ClCompile Include="findMinOfTrip.cpp" />
+    <ClCompile Include="findPre.cpp" />
     <ClCompile Include="findTheRK.cpp" />
     <ClCompile Include="getHigh(review).cpp" />
     <ClCompile Include="getHigh.cpp" />
@@ -168,6 +170,8 @@
     <ClCompile Include="levelOrder.cpp" />
     <ClCompile Include="levelOrder2.cpp" />
     <ClCompile Include="linkBiTree.cpp" />
+    <ClCompile Include="linkThreadBiTree.cpp" />
+    <ClCompile Include="linkThreadBiTree2.cpp" />
     <ClCompile Include="linkTwoList.cpp" />
     <ClCompile Include="mergeList.cpp" />
     <ClCompile Include="outPutAndFree.cpp" />
@@ -182,16 +186,22 @@
     <ClCompile Include="R_delMinOfLink.cpp" />
     <ClCompile Include="R_delXinLink.cpp" />
     <ClCompile Include="R_findCommonSuffix.cpp" />
+    <ClCompile Include="R_findTheRK.cpp" />
     <ClCompile Include="R_getHigh.cpp" />
     <ClCompile Include="R_inOrder.cpp" />
+    <ClCompile Include="R_inOrder2.cpp" />
     <ClCompile Include="R_inOrderExp.cpp" />
     <ClCompile Include="R_isCommonTree.cpp" />
     <ClCompile Include="R_levelOrder.cpp" />
+    <ClCompile Include="R_levelOrder2.cpp" />
     <ClCompile Include="R_postOrder.cpp" />
+    <ClCompile Include="R_postOrder2.cpp" />
+    <ClCompile Include="R_preOrder.cpp" />
     <ClCompile Include="R_reverseOutPut.cpp" />
     <ClCompile Include="R_swapChild.cpp" />
     <ClCompile Include="sert.cpp" />
     <ClCompile Include="swapChild.cpp" />
+    <ClCompile Include="threeRTraverse.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

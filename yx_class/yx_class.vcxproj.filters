@@ -67,6 +67,12 @@
     <Filter Include="源文件\class11\review">
       <UniqueIdentifier>{ec10a175-efa0-4f9a-b6a8-9cfad391a7f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\class12">
+      <UniqueIdentifier>{8907dd96-a050-4d29-a7df-9500be92e317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class12\review">
+      <UniqueIdentifier>{9d0f4117-c199-41aa-aaed-2c0d5155701c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="delMin.cpp">
@@ -249,9 +255,6 @@
     <ClCompile Include="delXsub.cpp">
       <Filter>源文件\class11</Filter>
     </ClCompile>
-    <ClCompile Include="isBalanceTree.cpp">
-      <Filter>源文件\class11</Filter>
-    </ClCompile>
     <ClCompile Include="isSortTree.cpp">
       <Filter>源文件\class11</Filter>
     </ClCompile>
@@ -263,6 +266,39 @@
     </ClCompile>
     <ClCompile Include="R_swapChild.cpp">
       <Filter>源文件\class11\review</Filter>
+    </ClCompile>
+    <ClCompile Include="isBalanceTree.cpp">
+      <Filter>源文件\class12</Filter>
+    </ClCompile>
+    <ClCompile Include="findKth.cpp">
+      <Filter>源文件\class12</Filter>
+    </ClCompile>
+    <ClCompile Include="linkThreadBiTree.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findPre.cpp">
+      <Filter>源文件\class12</Filter>
+    </ClCompile>
+    <ClCompile Include="threeRTraverse.cpp">
+      <Filter>源文件\class12\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_preOrder.cpp">
+      <Filter>源文件\class12\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_inOrder2.cpp">
+      <Filter>源文件\class12\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_postOrder2.cpp">
+      <Filter>源文件\class12\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_levelOrder2.cpp">
+      <Filter>源文件\class12\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_findTheRK.cpp">
+      <Filter>源文件\class12\review</Filter>
+    </ClCompile>
+    <ClCompile Include="linkThreadBiTree2.cpp">
+      <Filter>源文件\class12</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
