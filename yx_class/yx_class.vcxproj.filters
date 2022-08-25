@@ -73,6 +73,12 @@
     <Filter Include="源文件\class12\review">
       <UniqueIdentifier>{9d0f4117-c199-41aa-aaed-2c0d5155701c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\class13">
+      <UniqueIdentifier>{56b25928-0d02-4aa3-b397-b827bb91e9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class13\review">
+      <UniqueIdentifier>{f55b91d1-9f82-4c84-b760-f5960bfbb320}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="delMin.cpp">
@@ -299,6 +305,27 @@
     </ClCompile>
     <ClCompile Include="linkThreadBiTree2.cpp">
       <Filter>源文件\class12</Filter>
+    </ClCompile>
+    <ClCompile Include="createGraphInAL.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="createGraphInAM.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="R_isBalanceTree.cpp">
+      <Filter>源文件\class13\review</Filter>
+    </ClCompile>
+    <ClCompile Include="graphAM.cpp">
+      <Filter>源文件\class13</Filter>
+    </ClCompile>
+    <ClCompile Include="graphAL.cpp">
+      <Filter>源文件\class13</Filter>
+    </ClCompile>
+    <ClCompile Include="R_outPutAndFree.cpp">
+      <Filter>源文件\class13\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_isSortTree.cpp">
+      <Filter>源文件\class13\review</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -130,6 +130,8 @@
     <ClCompile Include="addFreq.cpp" />
     <ClCompile Include="createBiTree.cpp" />
     <ClCompile Include="createDouLoopLink.cpp" />
+    <ClCompile Include="createGraphInAL.cpp" />
+    <ClCompile Include="createGraphInAM.cpp" />
     <ClCompile Include="createLink.cpp" />
     <ClCompile Include="createSequentialQueue.cpp" />
     <ClCompile Include="createSinLoopLink.cpp" />
@@ -159,6 +161,8 @@
     <ClCompile Include="getHigh.cpp" />
     <ClCompile Include="getHigh2.cpp" />
     <ClCompile Include="getWPL.cpp" />
+    <ClCompile Include="graphAL.cpp" />
+    <ClCompile Include="graphAM.cpp" />
     <ClCompile Include="inOrder.cpp" />
     <ClCompile Include="inOrderExp.cpp" />
     <ClCompile Include="isBalanceTree.cpp" />
@@ -191,9 +195,12 @@
     <ClCompile Include="R_inOrder.cpp" />
     <ClCompile Include="R_inOrder2.cpp" />
     <ClCompile Include="R_inOrderExp.cpp" />
+    <ClCompile Include="R_isBalanceTree.cpp" />
     <ClCompile Include="R_isCommonTree.cpp" />
+    <ClCompile Include="R_isSortTree.cpp" />
     <ClCompile Include="R_levelOrder.cpp" />
     <ClCompile Include="R_levelOrder2.cpp" />
+    <ClCompile Include="R_outPutAndFree.cpp" />
     <ClCompile Include="R_postOrder.cpp" />
     <ClCompile Include="R_postOrder2.cpp" />
     <ClCompile Include="R_preOrder.cpp" />

@@ -57,11 +57,11 @@ void postThread(biTree* p) {//ºóĞòÏßË÷¶ş²æÊ÷
 
 	}
 }
-int main() {
-	biTree* T = (biTree *)malloc(sizeof(biTree));
-	biTree* create(biTree * T);
-	T=create(T);
-	inThread(T);
-	printf("%c",T->lchild->rchild->data);
-	return 0;
-}
+//int main() {
+//	biTree* T = (biTree *)malloc(sizeof(biTree));
+//	biTree* create(biTree * T);
+//	T=create(T);
+//	inThread(T);
+//	printf("%c",T->lchild->rchild->data);
+//	return 0;
+//}
