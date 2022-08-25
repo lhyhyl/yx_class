@@ -79,6 +79,12 @@
     <Filter Include="源文件\class13\review">
       <UniqueIdentifier>{f55b91d1-9f82-4c84-b760-f5960bfbb320}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\class14">
+      <UniqueIdentifier>{9a84a73d-7760-4c66-8aeb-c24621fd78a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class14\review">
+      <UniqueIdentifier>{e1dd364b-0c5d-467d-a975-6f6bcc13c1b7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="delMin.cpp">
@@ -318,14 +324,20 @@
     <ClCompile Include="graphAM.cpp">
       <Filter>源文件\class13</Filter>
     </ClCompile>
-    <ClCompile Include="graphAL.cpp">
-      <Filter>源文件\class13</Filter>
-    </ClCompile>
     <ClCompile Include="R_outPutAndFree.cpp">
       <Filter>源文件\class13\review</Filter>
     </ClCompile>
     <ClCompile Include="R_isSortTree.cpp">
       <Filter>源文件\class13\review</Filter>
+    </ClCompile>
+    <ClCompile Include="graphAL.cpp">
+      <Filter>源文件\class14</Filter>
+    </ClCompile>
+    <ClCompile Include="R_divideOddAndEven.cpp">
+      <Filter>源文件\class14\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_findAllAncestor.cpp">
+      <Filter>源文件\class14\review</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

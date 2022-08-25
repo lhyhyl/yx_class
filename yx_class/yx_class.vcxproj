@@ -189,6 +189,8 @@
     <ClCompile Include="review.cpp" />
     <ClCompile Include="R_delMinOfLink.cpp" />
     <ClCompile Include="R_delXinLink.cpp" />
+    <ClCompile Include="R_divideOddAndEven.cpp" />
+    <ClCompile Include="R_findAllAncestor.cpp" />
     <ClCompile Include="R_findCommonSuffix.cpp" />
     <ClCompile Include="R_findTheRK.cpp" />
     <ClCompile Include="R_getHigh.cpp" />
