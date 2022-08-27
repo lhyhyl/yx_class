@@ -339,5 +339,8 @@
     <ClCompile Include="R_findAllAncestor.cpp">
       <Filter>源文件\class14\review</Filter>
     </ClCompile>
+    <ClCompile Include="R_graphAM.cpp">
+      <Filter>源文件\class14\review</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

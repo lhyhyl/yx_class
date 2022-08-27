@@ -1,7 +1,7 @@
 ///*
 //	在二叉树中查找值为x的节点，试编写算法打印值为x的节点的所有祖先，假设x的值不多于一个。
 //	分析：
-//		这里我们采用后序遍历（非递归），因为在我们遇到x之前我们会把它的祖先节点全部入栈，当我们找到x时，再依次取出栈中元素
+//
 //*/
 //struct biTree {
 //	char data;
@@ -15,7 +15,55 @@
 //};
 //#include <stdio.h>
 //#include <stdlib.h>
-
+//void findAllAncestor(biTree* T, Stack* s, int x) {
+//	bool empty(Stack*);
+//	bool push(Stack * stack, biTree * p);
+//	bool pop(Stack * stack);
+//	biTree* top(Stack * stack);
+//	biTree* p = T;
+//	biTree* t = NULL;
+//	biTree* r = NULL;
+//	/*while (p || !empty(s)) {
+//		if (p) {
+//			push(s, p);
+//			p = p->lchild;
+//		}
+//		else {
+//			p = top(s);
+//			if (p->rchild && p->rchild != r) {
+//				p = p->rchild;
+//			}
+//			else {
+//				if (p->data == x) {
+//					pop(s);
+//					while (!empty(s)) {
+//						p = top(s);
+//						printf("%c", p->data);
+//						pop(s);
+//					}
+//					break;
+//				}
+//				r = p;
+//				pop(s);
+//				p = NULL;
+//			}
+//		}
+//	}*/
+//	while (p || !empty(s)) {
+//		if (p) {
+//			push(s, p);
+//			p = p->lchild;
+//		}
+//		else {
+//			p = top(s);
+//			printf("%c", p->data);
+//			pop(s);
+//			p = p->rchild;
+//		}
+//	}
+//
+//
+//}
 //int main() {
 //	int count = 0, x;
 //	biTree* T = (biTree*)malloc(sizeof(struct biTree));

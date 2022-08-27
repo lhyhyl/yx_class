@@ -194,6 +194,7 @@
     <ClCompile Include="R_findCommonSuffix.cpp" />
     <ClCompile Include="R_findTheRK.cpp" />
     <ClCompile Include="R_getHigh.cpp" />
+    <ClCompile Include="R_graphAM.cpp" />
     <ClCompile Include="R_inOrder.cpp" />
     <ClCompile Include="R_inOrder2.cpp" />
     <ClCompile Include="R_inOrderExp.cpp" />
