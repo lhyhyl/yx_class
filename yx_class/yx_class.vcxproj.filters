@@ -85,6 +85,21 @@
     <Filter Include="源文件\class14\review">
       <UniqueIdentifier>{e1dd364b-0c5d-467d-a975-6f6bcc13c1b7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\class15">
+      <UniqueIdentifier>{072c22dd-d4d8-4ffa-969e-4f1dd395c20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class15\review">
+      <UniqueIdentifier>{950aea16-f6f8-40bc-b789-d17850aca4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class16">
+      <UniqueIdentifier>{6f42ad8b-1a01-4794-a6ac-a731ff4cb543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class16\review">
+      <UniqueIdentifier>{11c78b71-71ab-4170-8148-80c72d1d7160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\class16\test">
+      <UniqueIdentifier>{1b23bc56-f7ea-4e1d-9381-04bd63ba7013}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="delMin.cpp">
@@ -342,5 +357,31 @@
     <ClCompile Include="R_graphAM.cpp">
       <Filter>源文件\class14\review</Filter>
     </ClCompile>
+    <ClCompile Include="ALGraph.cpp">
+      <Filter>源文件\class15</Filter>
+    </ClCompile>
+    <ClCompile Include="traverseInBiTree.cpp">
+      <Filter>源文件\class15\review</Filter>
+    </ClCompile>
+    <ClCompile Include="R_delXSub.cpp">
+      <Filter>源文件\class15\review</Filter>
+    </ClCompile>
+    <ClCompile Include="DorBFSinAL.cpp">
+      <Filter>源文件\class16</Filter>
+    </ClCompile>
+    <ClCompile Include="R_reverseLink.cpp">
+      <Filter>源文件\class16\review</Filter>
+    </ClCompile>
+    <ClCompile Include="createSortLink.cpp">
+      <Filter>源文件\class16\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="createBalanceTree.png">
+      <Filter>源文件\class16\test</Filter>
+    </Image>
+    <Image Include="createSortLink.png">
+      <Filter>源文件\class16\test</Filter>
+    </Image>
   </ItemGroup>
 </Project>

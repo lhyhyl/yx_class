@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addFreq.cpp" />
+    <ClCompile Include="ALGraph.cpp" />
     <ClCompile Include="createBiTree.cpp" />
     <ClCompile Include="createDouLoopLink.cpp" />
     <ClCompile Include="createGraphInAL.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="createLink.cpp" />
     <ClCompile Include="createSequentialQueue.cpp" />
     <ClCompile Include="createSinLoopLink.cpp" />
+    <ClCompile Include="createSortLink.cpp" />
     <ClCompile Include="createStack.cpp" />
     <ClCompile Include="delDuring.cpp" />
     <ClCompile Include="delMin.cpp" />
@@ -146,6 +148,7 @@
     <ClCompile Include="delXinLink.cpp" />
     <ClCompile Include="delXsub.cpp" />
     <ClCompile Include="divideOddAndEven.cpp" />
+    <ClCompile Include="DorBFSinAL.cpp" />
     <ClCompile Include="doubleLink.cpp" />
     <ClCompile Include="doubleLoopLinkList.cpp" />
     <ClCompile Include="doubleNode.cpp" />
@@ -189,6 +192,7 @@
     <ClCompile Include="review.cpp" />
     <ClCompile Include="R_delMinOfLink.cpp" />
     <ClCompile Include="R_delXinLink.cpp" />
+    <ClCompile Include="R_delXSub.cpp" />
     <ClCompile Include="R_divideOddAndEven.cpp" />
     <ClCompile Include="R_findAllAncestor.cpp" />
     <ClCompile Include="R_findCommonSuffix.cpp" />
@@ -207,11 +211,17 @@
     <ClCompile Include="R_postOrder.cpp" />
     <ClCompile Include="R_postOrder2.cpp" />
     <ClCompile Include="R_preOrder.cpp" />
+    <ClCompile Include="R_reverseLink.cpp" />
     <ClCompile Include="R_reverseOutPut.cpp" />
     <ClCompile Include="R_swapChild.cpp" />
     <ClCompile Include="sert.cpp" />
     <ClCompile Include="swapChild.cpp" />
     <ClCompile Include="threeRTraverse.cpp" />
+    <ClCompile Include="traverseInBiTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="createBalanceTree.png" />
+    <Image Include="createSortLink.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

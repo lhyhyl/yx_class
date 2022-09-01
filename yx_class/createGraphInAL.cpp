@@ -45,7 +45,6 @@ void createGraph(ALGraph* G) {
 		printf("请输入第%d个结点信息：", i + 1);
 		scanf("\n%c", &G->adjlist[i].info);
 		G->adjlist[i].firstEdge = NULL;
-		//G->adjlist[i].firstEdge->index = -1;
 	}
 
 	printf("请输入边表信息：\n");
@@ -59,11 +58,11 @@ void createGraph(ALGraph* G) {
 		e->next = G->adjlist[vi - 1].firstEdge;
 		G->adjlist[vi - 1].firstEdge = e;
 
-		/*EdgeNode *ed = (EdgeNode *)malloc(sizeof(EdgeNode ));
+		EdgeNode *ed = (EdgeNode *)malloc(sizeof(EdgeNode ));
 		ed->index = vi - 1;
 		ed->weight = w;
 		ed->next = G->adjlist[vj - 1].firstEdge;
-		G->adjlist[vj - 1].firstEdge = ed;*/
+		G->adjlist[vj - 1].firstEdge = ed;
 	}
 
 }
@@ -142,7 +141,8 @@ void dispGraph(ALGraph* G) {//将图用邻接表的形式展示出来
 }
 //int main() {
 //	ALGraph G;
-//	createGraphInFile(&G);
+//	//createGraphInFile(&G);
+//	createGraph(&G);
 //	dispGraph(&G);
 //	return 0;
 //}

@@ -8,7 +8,7 @@
 //	struct Link* next;
 //};
 //#define _CRT_SECURE_NO_WARNINGS
-//#include <stdio.h>
+//#include <stdio.h> 
 //#include <stdlib.h>
 //void reverse(Link *h) {
 //	//Link* pre = h;
